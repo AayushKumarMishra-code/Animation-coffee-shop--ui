@@ -35,7 +35,7 @@ export default function Testimonials() {
                         className="absolute inset-0 flex flex-col items-center justify-center text-center"
                     >
                         <h4 className="text-2xl sm:text-4xl text-white/80 font-light italic leading-relaxed mb-6">
-                            "{REVIEWS[index].text}"
+                            {`"${REVIEWS[index].text}"`}
                         </h4>
                         <span className="text-[#D4A373] text-sm tracking-widest uppercase">
                             — {REVIEWS[index].author}
